@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>로그인페이지</title>
+        <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <style>
+            * {
+              font-family: 'Stylish', sans-serif;
+              }
+        .mytitle {
+                color: white;
+                text-align: center;
+                background-image: url('https://cdn.pixabay.com/photo/2016/06/24/10/47/architecture-1477041_1280.jpg');
+                background-size: cover;
+                background-position: center;
+                width: 300px;
+                height: 200px;
+                border-radius: 10px;
+
+                /* display flex를 쓸 때엔 아래 네 줄이 항상 묶여 다닙니다. */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+             }
+             .wrap {
+                   width: 300px;
+                    margin: 50px auto 0 auto;
+                   }
+            .form-text {
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+               
+                   }
+      
+          
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="mytitle">
+            </div>
+        </div>
+
+          <div class='form-text'>
+            <font size=4>전원 주택을 팝니다</font> <font size=1>가격 : 5억 4천만원</font><br><br>
+            <font size =3> 이 전원 주택은 특별한 풍수지리에 따라 지어진 집입니다. 모두 행복하시길</font>
+        </div>
+        <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">주문자 이름</span>
+              </div>
+              <input type="text" class="form-control">
+            </div>
+          </form>
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">수량</span>
+              </div>
+              <input type="text" class="form-control">
+            </div>
+            <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">주소</span>
+                  </div>
+                  <input type="text" class="form-control">
+                </div>
+              </form>
+              <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">전화번호</span>
+                  </div>
+                  <input type="text" class="form-control">
+                 </div>
+                 <div>
+                  <a class="btn btn-primary" href="#" role="button" >주문하기</a>
+                  <i class="fa fa-align-center" aria-hidden="true"></i>
+
+                 </div>
+              </form>
+
+          
+    </body>
+    </html>
